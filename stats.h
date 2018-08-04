@@ -1,3 +1,16 @@
+/******************************************************************************
+ * Copyright (C) 2017 by Alex Fosdick - University of Colorado
+ *
+ * Redistribution, modification or use of this software in source or binary
+ * forms is permitted as long as the files maintain this copyright. Users are 
+ * permitted to modify this and use it to learn about the field of embedded
+ * software. Alex Fosdick and the University of Colorado are not liable for any
+ * misuse of this material. 
+ *
+ *****************************************************************************/
+/**
+
+
 /**
  * @brief this function is used to sort an array from large to small
  * 
@@ -25,12 +38,12 @@ unsigned char find_minimum(unsigned char array[], int length);
  * @param an unsigned char pointer and length of the array
  * @return unsigned char
  */
-unsigned char find_mean(unsigned char array[], int length);
+int find_mean(unsigned char array[], int length);
 /**
  * @brief this function is used to find the median value in array 
  * 
  * @param an unsigned char pointer and length of the array
- * @return unsigned char
+ * @return int
  */
 unsigned char find_median(unsigned char array[], int length);
 /**
